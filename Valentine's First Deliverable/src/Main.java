@@ -20,12 +20,12 @@ public class Main {
             {
                 System.out.print("Try again. Enter only positive whole numbers Enter here: ");
             }else{
-                ;
+                break;
             }
         }
 
         /**
-         * Now that we have a positive valid number, set original to that number so that we can keep track
+         * Now that we a positive valid number, set original to the that number so that we can keep track
          * of it later for comparing.
          */
         int original = userNum;
